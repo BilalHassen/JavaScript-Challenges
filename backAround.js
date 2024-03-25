@@ -8,5 +8,3 @@ function backAround(str) {
   const lastchar = str.charAt(str.length - 1);
   return lastchar + str + lastchar;
 }
-
-backAround("cat");
