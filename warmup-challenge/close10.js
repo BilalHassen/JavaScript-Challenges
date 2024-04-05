@@ -18,5 +18,3 @@ function close10(a, b) {
     return 0;
   }
 }
-
-console.log(close10(10, 10));
