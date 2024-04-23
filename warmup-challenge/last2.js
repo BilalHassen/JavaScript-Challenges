@@ -23,6 +23,4 @@ function last2(str) {
 
 console.log(last2("hixxhi"));
 
-// console.log(str.substr(str.length -2));
-// console.log(pair)
-// console.log(count++)
+
