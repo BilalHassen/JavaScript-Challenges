@@ -9,6 +9,16 @@
 // stringYak('pakyak') → pak
 // stringYak('yak123ya') → 123ya
 
-function stringYak(str) {}
+function stringYak(str) {
+  let newStr = "";
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === "y" && str[i + 1] === "a" && str[i + 2] === "k") {
+      i += 2;
+    } else {
+      newStr += str[i];
+    }
+  }
+  return newStr;
+}
 
-console.log(stringYak("yakpak"));
+console.log(stringYak("yakyakpak"));
