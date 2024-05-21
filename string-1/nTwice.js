@@ -8,5 +8,3 @@ The string length will be at least n.
 function nTwice(str, n) {
   return str.substring(0, n) + str.substring(str.length - n);
 }
-
-console.log(nTwice("chocolate", 0));
