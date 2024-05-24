@@ -12,5 +12,3 @@ function lastTwo(str) {
   }
   return str;
 }
-
-console.log(lastTwo(""));
