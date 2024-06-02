@@ -8,10 +8,8 @@ if the first or last chars are 'x',
 
 function withoutX(str) {
   if (str[0] === "x" && str[str.length - 1] === "x" && str.length > 1) {
-    console.log("first if");
     return str.substring(1, str.length - 1);
   } else if (str[str.length - 1] === "x" && str[0] !== "x") {
-    console.log("second if");
     return str.substring(0, str.length - 1);
   } else if (str[0] === "x" && str[str.length - 1] !== "x") {
     return str.substring(1, str.length);
