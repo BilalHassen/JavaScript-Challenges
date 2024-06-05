@@ -21,3 +21,11 @@ function catDog(str) {
 }
 
 console.log(catDog("catdog"));
+
+function catDog(str) {
+  // Using match to find all occurences of cat and dog
+  let catMatches = str.match(/cat/g) || [];
+  let dogMatches = str.match(/dog/g) || [];
+
+  return catMatches.length === dogMatches.length;
+}
