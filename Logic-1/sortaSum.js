@@ -13,7 +13,7 @@ Given 2 ints, a and b, return their sum. However, sums in the range 10..19 inclu
 
 // console.log(sortaSum(10, 11));
 
-// shoter version
+// shorter version
 function sortaSum(a, b) {
   return a + b >= 10 && a + b <= 19 ? 20 : a + b;
 }
