@@ -17,4 +17,4 @@ function luckySum(a, b, c) {
   }
   return sum;
 }
-console.log(luckySum(12, 11, 13));
+console.log(luckySum(13, 11, 1));
